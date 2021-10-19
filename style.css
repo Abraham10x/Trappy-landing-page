@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 1.953rem;
+  font-size: 1.7rem;
   text-align: center;
   line-height: 1.1;
   overflow-x: hidden;
@@ -228,6 +228,8 @@ header {
     width: 100%;
     max-width: 40rem;
     margin: auto 0;
+    position: relative;
+    top: 4rem;
   }
 
   .context-text {
@@ -242,7 +244,7 @@ header {
 
   .inner,
   .inner-two {
-    width: 40ch;
+    width: 37ch;
     margin: auto;
   }
 }
