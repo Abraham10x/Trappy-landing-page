@@ -320,12 +320,16 @@ footer .btn:hover {
   transition: color 0.15s linear;
 }
 .social-icons i:hover {
-  color: #6969f0;
+  color: #fcba03;
 }
 
 .contain {
   font-size: 1.8rem;
   margin: 4rem 0;
+}
+
+.social-icons i {
+  margin: 0 1rem;
 }
 
 .contain i,
@@ -355,10 +359,6 @@ form {
     margin-top: 2rem;
   }
 
-  .social-icons i {
-    margin: 0 1rem;
-  }
-
   form {
     margin: 2rem 0;
   }
@@ -371,6 +371,13 @@ form {
 }
 
 @media screen and (min-width: 1024px) {
+  .first-section,
+  .second-section,
+  .third-section,
+  .fourth-section {
+    gap: 8rem;
+  }
+
   footer {
     height: auto;
   }
@@ -383,5 +390,10 @@ form {
     width: 100%;
     max-width: 52rem;
     margin: auto 0;
+  }
+
+  .inner-text {
+    width: 40ch;
+    margin: auto;
   }
 }
